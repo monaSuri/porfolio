@@ -35,8 +35,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import gitHub_icon from './Github.png';
+import linkedIn_icon from './linkedin.png';
+import Instagram_icon from './instagram.png';
 
 export const assets = {
+    gitHub_icon,
+    linkedIn_icon,
+    Instagram_icon,
     user_image,
     code_icon,
     code_icon_dark,
