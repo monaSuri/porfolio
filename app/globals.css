@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Ovo&display=swap');
 @import "tailwindcss";
 
-*{
-  font-family: Outfit;
+/* Set Outfit as default global font */
+body {
+  font-family: 'Outfit', sans-serif;
 }
-
 
