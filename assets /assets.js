@@ -38,11 +38,25 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import gitHub_icon from './Github.png';
 import linkedIn_icon from './linkedin.png';
 import Instagram_icon from './instagram.png';
+import css_icon from 'CSS.png';
+import js_icon from 'JavaScript.png';
+import html_icon from 'HTML.png';
+import react_icon from 'React.png';
+import flutter_icon from 'Flutter.png';
+import python_icon from 'Python.png';
+import java_icon from 'Java.png';
 
 export const assets = {
     gitHub_icon,
     linkedIn_icon,
     Instagram_icon,
+    css_icon,
+    js_icon,    
+    html_icon,
+    react_icon,
+    flutter_icon,
+    python_icon,
+    java_icon,
     user_image,
     code_icon,
     code_icon_dark,
