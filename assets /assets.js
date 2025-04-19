@@ -38,13 +38,14 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import gitHub_icon from './Github.png';
 import linkedIn_icon from './linkedin.png';
 import Instagram_icon from './instagram.png';
-import css_icon from 'CSS.png';
-import js_icon from 'JavaScript.png';
-import html_icon from 'HTML.png';
-import react_icon from 'React.png';
-import flutter_icon from 'Flutter.png';
-import python_icon from 'Python.png';
-import java_icon from 'Java.png';
+import css_icon from './CSS.png';
+import js_icon from './JavaScript.png';
+import html_icon from './HTML.png';
+import react_icon from './React.png';
+import flutter_icon from './Flutter.png';
+import python_icon from './Python.png';
+import java_icon from './Java.png';
+import node_icon from './Node.png';
 
 export const assets = {
     gitHub_icon,
@@ -57,6 +58,7 @@ export const assets = {
     flutter_icon,
     python_icon,
     java_icon,
+    node_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -134,3 +136,7 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const languageData = [
+    assets.html_icon, assets.css_icon, assets.js_icon, assets.flutter_icon, assets.react_icon, assets.python_icon, assets.java_icon, assets.node_icon
+]
