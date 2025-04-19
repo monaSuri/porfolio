@@ -113,9 +113,8 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BEng Software Engineering undergraduate' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Completed 3 projects' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description_1: 'BEng Software Engineering undergraduate', description_2:'Second Year', },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description_1: 'Completed 3 projects & Ongoing 1 project', description_2:'(including a mobile app)'  }
 ];
 
 export const toolsData = [
