@@ -48,6 +48,7 @@ import node_icon from './Node.png';
 import frontend_icon from './developer-icon.png'
 import learn_icon from './learn-icon.png';
 import qa_icon from './qa-icon.png';
+import phone_icon from './phone-icon.png';
 
 export const assets = {
     gitHub_icon,
@@ -64,6 +65,7 @@ export const assets = {
     frontend_icon,
     learn_icon,
     qa_icon,
+    phone_icon,
     user_image,
     code_icon,
     code_icon_dark,
