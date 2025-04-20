@@ -2,7 +2,7 @@ import { assets } from '@/assets /assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
   const [isScroll, setIsScroll] = useState(false);
 
@@ -88,8 +88,8 @@ const Navbar = () => {
 
         {/* === Contact Button === */}
         <div className='flex items-center gap-4'>
-          <button>
-            <Image src={assets.moon_icon} alt=" " className='w-6' />
+          <button onClick={()=> setIsDarkMode(prev =>!prev)}>
+            <Image src={assets.moon_icon} alt=" " className='w-6 cursor-pointer' />
           </button>
 
           <a 
