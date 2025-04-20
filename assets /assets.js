@@ -104,27 +104,35 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-export const workData = [
+export const projectsData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'MEMO',
+        description: 'Mobile App',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Ticketing System',
+        description: 'Web Application',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Life on Land',
+        description: 'Web Appl',
         bgImage: '/work-3.png',
     },
+    
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Portfolio Website',
+        description: 'Web Application',
         bgImage: '/work-4.png',
     },
+
+    {
+        title: 'E-Commerce Website',
+        description: 'Ongoing Project',
+        bgImage: '/work-4.png',
+    },
+
 ]
 
 export const goalsData = [
@@ -137,10 +145,6 @@ export const goalsData = [
 export const infoList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description_1: 'BEng Software Engineering undergraduate', description_2:'Second Year', },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description_1: 'Completed 3 projects & Ongoing 1 project', description_2:'(including a mobile app)'  }
-];
-
-export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
 
 export const languageData = [
