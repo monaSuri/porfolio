@@ -46,6 +46,9 @@ import flutter_icon from './Flutter.png';
 import python_icon from './Python.png';
 import java_icon from './Java.png';
 import node_icon from './Node.png';
+import frontend_icon from './developer-icon.png'
+import learn_icon from './learn-icon.png';
+import qa_icon from './qa-icon.png';
 
 export const assets = {
     gitHub_icon,
@@ -59,6 +62,9 @@ export const assets = {
     python_icon,
     java_icon,
     node_icon,
+    frontend_icon,
+    learn_icon,
+    qa_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -121,11 +127,11 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+export const goalsData = [
+    { icon: assets.web_icon, title: 'Web Developer', description: 'Creating modern, mobile friendly websites with a focus on performance and usability.'},
+    { icon: assets.frontend_icon, title: 'Frontend Developer', description: 'Building clean, responsive UIs using HTML, CSS, JavaScript, React, and Flutter.'},
+    { icon: assets.qa_icon, title: 'QA Engineer', description: 'Testing apps and websites to ensure smooth, bug-free user experiences.'},
+    { icon: assets.learn_icon, title: 'Open to Learning', description: 'Curious, adaptable, and always ready to grow through real world experience and teamwork.'},
 ]
 
 export const infoList = [
