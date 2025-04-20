@@ -23,8 +23,9 @@ const Projects = () => {
                         <h2 className='font-semibold truncate'>{project.title}</h2>
                         <p className='text-sm line-clamp-2'>{project.description}</p>
                     </div>
-                    <div>
-                        <Image src={assets.send_icon} alt='' className='w-5' />
+                    <div className='border rounded-full border-black w-9 aspect-square flex items-center justiffy-center 
+                    shadow-[2px_2px_0_#000] group-hover:bg-blue-200 transition'>
+                        <Image src={assets.send_icon} alt='' className='w-6' />
                     </div>
                 </div>
 
