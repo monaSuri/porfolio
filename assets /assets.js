@@ -11,7 +11,6 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -38,11 +37,33 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import gitHub_icon from './Github.png';
 import linkedIn_icon from './linkedin.png';
 import Instagram_icon from './instagram.png';
+import css_icon from './CSS.png';
+import js_icon from './JavaScript.png';
+import html_icon from './HTML.png';
+import react_icon from './React.png';
+import flutter_icon from './Flutter.png';
+import python_icon from './Python.png';
+import java_icon from './Java.png';
+import node_icon from './Node.png';
+import frontend_icon from './developer-icon.png'
+import learn_icon from './learn-icon.png';
+import qa_icon from './qa-icon.png';
 
 export const assets = {
     gitHub_icon,
     linkedIn_icon,
     Instagram_icon,
+    css_icon,
+    js_icon,    
+    html_icon,
+    react_icon,
+    flutter_icon,
+    python_icon,
+    java_icon,
+    node_icon,
+    frontend_icon,
+    learn_icon,
+    qa_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -56,7 +77,6 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
-    logo,
     logo_dark,
     mail_icon,
     mail_icon_dark,
@@ -82,34 +102,42 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-export const workData = [
+export const projectsData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'MEMO',
+        description: 'Mobile App',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Ticketing System',
+        description: 'Web Application',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Life on Land',
+        description: 'Web Appl',
         bgImage: '/work-3.png',
     },
+    
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Portfolio Website',
+        description: 'Web Application',
         bgImage: '/work-4.png',
     },
+
+    {
+        title: 'E-Commerce Website',
+        description: 'Ongoing Project',
+        bgImage: '/work-4.png',
+    },
+
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+export const goalsData = [
+    { icon: assets.web_icon, title: 'Web Developer', description: 'Creating modern, mobile friendly websites with a focus on performance and usability.'},
+    { icon: assets.frontend_icon, title: 'Frontend Developer', description: 'Building clean, responsive UIs using HTML, CSS, JavaScript, React, and Flutter.'},
+    { icon: assets.qa_icon, title: 'QA Engineer', description: 'Testing apps and websites to ensure smooth, bug-free user experiences.'},
+    { icon: assets.learn_icon, title: 'Open to Learning', description: 'Curious, adaptable, and always ready to grow through real world experience and teamwork.'},
 ]
 
 export const infoList = [
@@ -117,6 +145,6 @@ export const infoList = [
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description_1: 'Completed 3 projects & Ongoing 1 project', description_2:'(including a mobile app)'  }
 ];
 
-export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
-];
+export const languageData = [
+    assets.html_icon, assets.css_icon, assets.js_icon, assets.flutter_icon, assets.react_icon, assets.python_icon, assets.java_icon, assets.node_icon
+]

@@ -81,7 +81,7 @@ const Navbar = () => {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white/80 shadow-sm"}`}>
           <li><a className='font-Ovo' href="#top">Home</a></li>
           <li><a className='font-Ovo' href="#about">About Me</a></li>
-          <li><a className='font-Outfit' href="#services">Services</a></li>
+          <li><a className='font-Outfit' href="#goals">Internship Interests</a></li>
           <li><a className='font-Outfit' href="#projects">My Projects</a></li>
           <li><a className='font-Outfit' href="#contact">Contact Me</a></li>
         </ul>
@@ -124,7 +124,7 @@ const Navbar = () => {
             <a className='font-Ovo' onClick={closeMenu} href="#about">About Me</a>
           </li>
           <li className='md:hidden'>
-            <a className='font-Outfit' onClick={closeMenu} href="#services">Services</a>
+            <a className='font-Outfit' onClick={closeMenu} href="#goals">Internship Interests</a>
           </li>
           <li className='md:hidden'>
             <a className='font-Outfit' onClick={closeMenu} href="#projects">My Projects</a>
